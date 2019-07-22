@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'icons_flutter';
+  src:  url('fonts/icons_flutter.eot?qi6iw4');
+  src:  url('fonts/icons_flutter.eot?qi6iw4#iefix') format('embedded-opentype'),
+    url('fonts/icons_flutter.ttf?qi6iw4') format('truetype'),
+    url('fonts/icons_flutter.woff?qi6iw4') format('woff'),
+    url('fonts/icons_flutter.svg?qi6iw4#icons_flutter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons_flutter' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-video-vintage:before {
+  content: "\e900";
+}
+.icon-android-studio:before {
+  content: "\e901";
+}
+.icon-pill:before {
+  content: "\e902";
+}
+.icon-laptop:before {
+  content: "\e903";
+}
+.icon-teach:before {
+  content: "\e904";
+}
+.icon-chart-pie:before {
+  content: "\e905";
+}
+.icon-square-edit-outline:before {
+  content: "\e906";
+}
